@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-reqwest = { version = "0.11.4", features = ["blocking", "json"] }
-ical = "0.7.*"
-chrono = "*"
-iso8601="*"
+reqwest = { version = "0.11.12", features = ["blocking", "json"] }  # updated: Sept 2022
+ical = "0.7.0"      # updated: Sept 2022
+chrono = "0.4.22"   # updated: Sept 2022
+iso8601 = "0.5.0"   # updated: sept 2022
